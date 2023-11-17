@@ -296,7 +296,7 @@ $$\   $$ |$$ |  $$ |$$ |      $$$  / \$$$ |$$ |  $$ |$$ |\$$$ |
                \033[1;97mTEAM         :  SAFU             
                \033[1;91mTOOL VIRSION :  0.1     
                \033[1;97mTOOL WORK    :  ONLY  DATA           
-      └━━━━━━━━━━━━━━━━━ H4CKER ━━━━━━━━━━━━━━━━━┘
+      └━━━━━━━━━━━━━━━━━ SAFWAN ━━━━━━━━━━━━━━━━━┘
 """)
 
 
@@ -317,7 +317,7 @@ def approval():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get(https://wa.me/qr/7VB37KNYDG74K1s://github.com/safwangaiming11).text
+    httpCaht = requests.gethttps://github.com/safwangaiming11.text
     if id in httpCaht:
       print("\33[1;32mYour Token is Successfully Approved")
       msg = str(os.geteuid())
