@@ -317,7 +317,7 @@ def approval():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://raw.githubusercontent.com/F3ogbaba03/aproobe.txt/main/N3OB.txt').text
+    httpCaht = requests.get(https://wa.me/qr/7VB37KNYDG74K1s://github.com/safwangaiming11).text
     if id in httpCaht:
       print("\33[1;32mYour Token is Successfully Approved")
       msg = str(os.geteuid())
@@ -331,11 +331,11 @@ def approval():
       print("\33[1;32mImportant Note")
       print("\33[1;37m----------------------------------------------")
       print("\33[1;37mFor 15 Days Approval Price 200Tk One Month Price 400 Tk")
-      print('BKASH PERSONAL - +8801935845884')
+      print('BKASH PERSONAL - +8801568722961)
       print('Send Pay And Give Ss And Send Me Key Or Ss Me Whatsapp')
       print('\33[1;37m----------------------------------------------')
       input('IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801935845884?text='+tks),approval()
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/qr/7VB37KNYDG74K1='+tks),approval()
       time.sleep(1)
       approval()
   except:
